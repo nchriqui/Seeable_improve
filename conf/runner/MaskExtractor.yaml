@@ -1,0 +1,6 @@
+_target_: src.preprocess.MaskExtractor
+_args_:
+  - cfg
+dataset: ${dataset}
+root: C:/Users/nathan/seeable/data/original_sequences/youtube/c23/train
+column: "target_mask_path"

@@ -1,0 +1,13 @@
+_target_: src.dataset.loader.Loader
+dataset: ${dataset}
+batch_size: ???
+shuffle: False
+sampler:
+batch_sampler:
+num_workers: 0
+pin_memory: False
+drop_last: True
+timeout: 0
+worker_init_fn:
+# prefetch_factor: 2
+persistent_workers: False

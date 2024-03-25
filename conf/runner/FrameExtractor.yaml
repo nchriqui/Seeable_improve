@@ -1,0 +1,7 @@
+_target_: src.preprocess.frame_extractor.FrameExtractor
+_args_:
+  - cfg
+dataset: ${dataset}
+root: C:/Users/nathan/seeable/data/original_sequences/youtube/c23/train
+picture_type: I
+extension: png

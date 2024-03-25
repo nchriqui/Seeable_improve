@@ -1,0 +1,5 @@
+_target_: src.preprocess.FaceExtractor
+_args_:
+  - cfg
+root: C:/Users/nathan/seeable/data/original_sequences/youtube/c23/train
+detector: ${detector}

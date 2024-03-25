@@ -1,0 +1,10 @@
+_target_: src.dataset.DatasetDeepfakes
+root: C:/Users/nathan/seeable/data/original_sequences/youtube/c23/train
+csv: C:/Users/nathan/seeable/FaceForensics++.csv
+name: FaceForensics++
+selector: { "label": 0, "split": "train" }
+metas: "{quality:c23}"
+level: "face"
+# level: "frame"
+use_cache: True
+transform: ${transform}
